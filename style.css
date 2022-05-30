@@ -149,3 +149,25 @@ section {
   background: rgba(78, 58, 167, 0.5);
   border-radius: 10px;
 }
+/* Back to top btn */
+#btn-back-to-top {
+  width: 46px;
+  height: 46px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  display: none;
+  background: rgba(78, 58, 167, 0.5);
+  border: 3px solid rgba(78, 58, 167, 0.438);
+  text-align: center;
+}
+#btn-back-to-top i {
+  margin-left: -70%;
+}
+#modal-login {
+  width: 100vw;
+  height: 100vh;
+  position: fixed !important;
+  z-index: 10 !important;
+  top: 0 !important;
+}
